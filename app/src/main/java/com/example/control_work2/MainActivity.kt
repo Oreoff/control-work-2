@@ -124,7 +124,11 @@ fun Greeting(modifier: Modifier = Modifier
                 Text(text = author, fontSize = 14.sp)
             }
           Row(horizontalArrangement = Arrangement.SpaceBetween,
-              modifier = Modifier.fillMaxWidth()
+              verticalAlignment =  Alignment.Bottom,
+              modifier = Modifier
+                  .fillMaxSize()
+                  .padding(top = 50.dp)
+
              ){
               Button(
                   onClick = {ImageScrollerBackward()})
