@@ -101,11 +101,6 @@ fun Greeting(modifier: Modifier = Modifier
 
     )
         {
-            Box(
-                modifier = Modifier
-
-
-            ) {
 
                 Column(
                     verticalArrangement = Arrangement.Center,
@@ -120,7 +115,7 @@ fun Greeting(modifier: Modifier = Modifier
                         contentDescription = result.toString()
                     )
                 }
-            }
+
             Column(horizontalAlignment = Alignment.CenterHorizontally,
                 modifier = Modifier
                 .background(Color.LightGray)
